@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+    <view class="location-default">
+      <view class="icon-location iconfont .icon-coordinates_fill">
+       赞成湖畔居
+      </view>
+    </view>
+    <view class="weather">
+       <view class="weather-info iconfont">
+          <view class="weather-temp">
+            34℃
+          </view>
+          <view class="weather-state">
+            晴
+          </view>
+       </view>
+       <view class="weather-icon">
+        <image src="../../images/sunny.png" mode="aspectFit"></image>
+       </view>
+    </view>
+  </view>
+  <view class="search-head ">
+    <input  placeholder="搜索商家商品名称" class="weui-input"/>
+  </view> 
+</view>
